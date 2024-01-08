@@ -1,0 +1,70 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7fa4494d-f9c1-4ecf-8065-6d000744767a)
+
+  (paper "A4")
+
+  (title_block
+    (title "Keycomp 80386 to PC104")
+  )
+
+  (lib_symbols
+  )
+
+  (bus_alias "ISA16" (members "~{IOCHK}" "SD7" "SD6" "SD5" "SD4" "SD3" "SD2" "SD1" "SD0" "IOCHRDY" "AEN" "SA19" "SA18" "SA17" "SA16" "SA15" "SA14" "SA13" "SA12" "SA11" "SA10" "SA9" "SA8" "SA7" "SA6" "SA5" "SA4" "SA3" "SA2" "SA1" "SA0" "RESET" "IRQ9" "DRQ2" "~{SRDY}" "~{SMEMW}" "~{SMEMR}" "~{IOW}" "~{IOR}" "~{DACK3}" "DRQ3" "~{DACK1}" "DRQ1" "~{REFRESH}" "BCLK" "IRQ7" "IRQ6" "IRQ5" "IRQ4" "IRQ3" "~{DACK2}" "TC" "BALE" "OSC" "~{SBHE}" "LA23" "LA22" "LA21" "LA20" "LA19" "LA18" "LA17" "~{MEMR}" "~{MEMW}" "SD8" "SD9" "SD10" "SD11" "SD12" "SD13" "SD14" "SD15" "~{MEMCS16}" "~{IOC16}" "IRQ10" "IRQ11" "IRQ12" "IRQ15" "IRQ14" "~{DACK0}" "DRQ0" "~{DACK5}" "DRQ5" "~{DACK6}" "DRQ6" "~{DACK7}" "DRQ7" "~{MASTER}"))
+
+  (sheet (at 31.75 20.32) (size 29.21 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 56da8143-075a-4027-8c1a-43f8b4f0cd5e)
+    (property "Sheetname" "PC104" (at 31.75 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PC104.kicad_sch" (at 31.75 50.1146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "keycomp-pc104"
+        (path "/7fa4494d-f9c1-4ecf-8065-6d000744767a" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 81.28 19.05) (size 31.75 41.91) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b949bb7a-50c8-4e31-9e73-35dbf21da0da)
+    (property "Sheetname" "ISA slots" (at 81.28 18.3384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "isa_slots.kicad_sch" (at 81.28 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "keycomp-pc104"
+        (path "/7fa4494d-f9c1-4ecf-8065-6d000744767a" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 43.18 73.66) (size 35.56 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c7fc1a65-b714-4f24-92ad-b3e970562fcd)
+    (property "Sheetname" "IO ports" (at 43.18 72.9484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "io_ports.kicad_sch" (at 43.18 109.8046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "keycomp-pc104"
+        (path "/7fa4494d-f9c1-4ecf-8065-6d000744767a" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
